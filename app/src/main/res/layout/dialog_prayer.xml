@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider_16dp_transparent"
+    android:orientation="vertical"
+    android:showDividers="beginning|middle"
+    tools:ignore="RtlHardcoded">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_horizontal_margin"
+        android:layout_marginRight="@dimen/dialog_horizontal_margin">
+
+        <TextView
+            android:id="@+id/prayer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:text="@string/prayer_fajr"/>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prayer_name"
+            tools:text="December, 25th 2015 (1 day ago)"/>
+
+        <ImageButton
+            android:id="@+id/info_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/more_info"
+            android:minWidth="48dp"
+            android:src="@drawable/ic_info_outline_black_24dp"/>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/status_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dialog_horizontal_margin"
+        android:paddingRight="@dimen/dialog_horizontal_margin">
+
+        <RadioButton
+            android:id="@+id/radio_status_ontime"
+            style="@style/FlatRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_status_ontime_green_800_18dp"
+            android:text="@string/status_ontime"
+            tools:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radio_status_late"
+            style="@style/FlatRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_status_delay_grey_800_18dp"
+            android:text="@string/status_late"/>
+
+        <RadioButton
+            android:id="@+id/radio_status_missed"
+            style="@style/FlatRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_status_missed_red_800_18dp"
+            android:text="@string/status_missed"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/place_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_horizontal_margin"
+        android:layout_marginRight="@dimen/dialog_horizontal_margin"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_place_mosque"
+            style="@style/FlatRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_place_mosque_black_18dp"
+            android:text="@string/place_mosque"/>
+
+        <RadioButton
+            android:id="@+id/radio_place_home"
+            style="@style/FlatRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_place_home_black_18dp"
+            android:text="@string/place_home"
+            tools:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radio_place_office"
+            style="@style/FlatRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_place_office_black_18dp"
+            android:text="@string/place_office"/>
+
+
+        <RadioButton
+            android:id="@+id/radio_place_other"
+            style="@style/FlatRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_more_horiz_black_18dp"
+            android:text="@string/place_other"/>
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/Widget.AppCompat.ButtonBar.AlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@android:string/cancel"/>
+
+        <Button
+            android:id="@+id/ok_button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@android:string/ok"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

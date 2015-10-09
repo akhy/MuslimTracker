@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Muslim Tracker</string>
+
+    <string name="label_settings">Pengaturan</string>
+    <string name="label_calendar">Kalender</string>
+    <string name="more_info">Info…</string>
+
+    <string name="prayer_zuhr">Dzuhur</string>
+    <string name="prayer_isha">Isya</string>
+    <string name="prayer_fajr">Shubuh</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_asr">Ashar</string>
+
+    <!-- Statuses -->
+    <string name="status_unknown">Belum diset</string>
+    <string name="status_missed">Terlewat</string>
+    <string name="status_late">Terlambat</string>
+    <string name="status_ontime">Tepat waktu</string>
+
+    <!-- Places -->
+    <string name="place_unset">Belum diset</string>
+    <string name="place_other">Tempat lain</string>
+    <string name="place_mosque">Masjid</string>
+    <string name="place_home">Rumah</string>
+    <string name="place_office">Kantor</string>
+
+    <!-- Place dialog -->
+    <string name="place_dialog_title">Di mana anda sholat %s?</string>
+
+</resources>
