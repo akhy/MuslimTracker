@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple_color">
+    <item>
+        <bitmap
+            android:antialias="true"
+            android:gravity="bottom|left"
+            android:src="@drawable/prayer_bg_fajr_bitmap"/>
+    </item>
+</ripple>

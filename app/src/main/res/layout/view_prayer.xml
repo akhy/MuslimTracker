@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider_16dp_transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:showDividers="middle"
+    tools:background="@drawable/prayer_bg_fajr">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ab000000"
+        android:textStyle="bold"
+        tools:text="@string/prayer_fajr"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/place"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@null"
+        tools:src="@drawable/ic_place_mosque_black_18dp"/>
+
+    <ImageView
+        android:id="@+id/status"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@null"
+        tools:src="@drawable/ic_status_ontime_green_800_18dp"/>
+
+</LinearLayout>

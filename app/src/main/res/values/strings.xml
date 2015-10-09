@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Moslem Tracker</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non efficitur sem. Nulla scelerisque semper lorem, sit amet molestie tortor eleifend sit amet. Praesent gravida neque id urna feugiat tempus. Sed facilisis, dui in mattis hendrerit, erat nibh gravida odio, in mattis nisl eros a elit. Phasellus feugiat imperdiet purus, quis accumsan magna efficitur ut. Pellentesque tempor magna metus, eget porta magna consequat euismod. Etiam cursus mollis est, ut consequat elit pellentesque ut. Aenean blandit ac felis eu congue. Pellentesque eleifend a velit sit amet varius.</string>
+
+    <string name="label_settings">Settings</string>
+    <string name="label_calendar">Calendar</string>
+    <string name="more_info">More info…</string>
+
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_zuhr">Zuhr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_isha">Isha</string>
+
+    <!-- Statuses -->
+    <string name="status_unknown">Unknown</string>
+    <string name="status_missed">Missed</string>
+    <string name="status_late">Late</string>
+    <string name="status_ontime">On Time</string>
+
+    <!-- Places -->
+    <string name="place_unset">Unknown</string>
+    <string name="place_other">Other</string>
+    <string name="place_mosque">Mosque</string>
+    <string name="place_home">Home</string>
+    <string name="place_office">Office</string>
+
+    <!-- Place dialog -->
+    <string name="place_dialog_title">Where did you do %s?</string>
+    <string-array name="place_dialog_items">
+        <item>@string/place_mosque</item>
+        <item>@string/place_home</item>
+        <item>@string/place_office</item>
+        <item>@string/place_other</item>
+    </string-array>
+
+
+</resources>

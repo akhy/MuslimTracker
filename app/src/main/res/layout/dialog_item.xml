@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/text"
+    style="@style/AlertDialog.AppCompat"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="16dp"
+    tools:drawableLeft="@drawable/ic_status_ontime_green_800_18dp"
+    tools:ignore="RtlHardcoded"
+    tools:text="Lorem ipsum dolor sit amet">
+
+</TextView>

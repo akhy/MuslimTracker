@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_language">Language</string>
+    <string name="pref_language_default" translatable="false">en</string>
+    <string-array name="pref_language_entries" translatable="false">
+        <item>English</item>
+        <item>Bahasa Indonesia</item>
+    </string-array>
+    <string-array name="pref_language_values" translatable="false">
+        <item>en</item>
+        <item>in</item>
+    </string-array>
+</resources>
